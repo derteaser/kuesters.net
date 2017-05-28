@@ -1,0 +1,4 @@
+backend:
+  name: github
+  repo: derteaser/kuesters.net
+  branch: master
