@@ -14,7 +14,7 @@
 		             images/cup-1200-900.jpg 1200w,
 		             images/cup-2000-1000.jpg 2000w"
 	 sizes="100vw"
-	 data-src="images/cup-1200-900.jpg" src="" alt="" data-uk-cover data-uk-img
+	 data-src="images/cup-1200-900.jpg" alt="" data-uk-cover data-uk-img
 >
 <div class="uk-flex uk-flex-center uk-flex-middle uk-height-viewport uk-position-z-index uk-position-relative" data-uk-height-viewport="min-height: 400">
 
@@ -25,9 +25,15 @@
 		</h1>
 		<h2 class="uk-heading-primary animate uk-invisible uk-h1">Hello!</h2>
 		<div class="uk-width-4-5@m uk-margin-auto animate uk-invisible uk-text-justify">
-			<p class="lead">My name is Jens Küsters and I'm living in the city of Neuss on the Rhine.</p>
-			<p>I'm working as Director Publishing Technology at DuMont.next in Cologne. We support the regional media branches of the DuMont Media Group in publishing their content and services efficiently on digital channels. We provide the necessary technologiy, support it's users and operate it smoothly. We also consult our customers along the whole lifecycle of each product.</p>
-			<p>Furthermore I'm doing freelance development of websites and applications as well as consulting for many years now.</p>
+			<p class="lead">My name is Jens Küsters and I'm living in the city of Neuss on the Rhine. <a href="#bio" uk-toggle uk-icon="arrow-right">read more</a></p>
+			<div id="bio" class="uk-modal-full" uk-modal>
+				<div class="uk-modal-dialog uk-modal-body uk-background-secondary" uk-overflow-auto>
+					<h2 class="uk-modal-title">My name is Jens Küsters and I'm living in the city of Neuss on the Rhine.</h2>
+					<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+					<p>I'm working as Director Publishing Technology at DuMont.next in Cologne. We support the regional media branches of the DuMont Media Group in publishing their content and services efficiently on digital channels. We provide the necessary technologiy, support it's users and operate it smoothly. We also consult our customers along the whole lifecycle of each product.</p>
+					<p>Furthermore I'm doing freelance development of websites and applications as well as consulting for many years now.</p>
+				</div>
+			</div>
 		</div>
 		<div class="uk-margin-medium-top animate uk-invisible" data-uk-margin data-uk-scrollspy-class="uk-animation-fade uk-invisible">
 			<a href="https://twitter.com/jenskuesters" target="_blank" rel="noopener noreferrer" class="uk-icon-button" data-uk-icon="twitter" data-uk-tooltip="pos: bottom" title="Twitter"></a>
