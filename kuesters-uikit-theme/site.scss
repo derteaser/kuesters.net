@@ -15,7 +15,27 @@
 
 
 // Custom kuesters styles
+body {
+  background-image: url("../images/cup-640-700.jpg");
+}
 
+@media (min-width: $breakpoint-medium) {
+  body {
+    background-image: url("../images/cup-960-700.jpg");
+  }
+}
+
+@media (min-width: $breakpoint-large) {
+  body {
+    background-image: url("../images/cup-1200-900.jpg");
+  }
+}
+
+@media (min-width: $breakpoint-xlarge) {
+  body {
+    background-image: url("../images/cup-2000-1000.jpg");
+  }
+}
 
 
 // From Cover template
