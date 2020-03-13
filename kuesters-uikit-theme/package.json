@@ -11,7 +11,7 @@
   "version": "1.0.0",
   "dependencies": {
     "gulp-rewrite-css": "^1.1.2",
-    "uikit": "^3.3.3"
+    "uikit": "^3.3.6"
   },
   "devDependencies": {
     "gulp": "^4.0.0",
