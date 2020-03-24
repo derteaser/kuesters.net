@@ -9,26 +9,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
       - name: Create local changes
+        uses: actions/checkout@master
         run: |
           cd kuesters-uikit-theme
           yarn install
           gulp
-      - name: Commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          if git diff --exit-code
-          then
-            git commit -m "Apply theme changes" -a
-          else
-            echo Nothing to commit
-          fi
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Commit and push local changes
+        uses: stefanzweifel/git-auto-commit-action@v4.1.1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: Apply theme changes
       - name: pull repo from production server via ssh
         uses: appleboy/ssh-action@master
         with:
