@@ -19,7 +19,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          if git diff-index HEAD
+          if git diff --exit-code
           then
             git commit -m "Apply theme changes" -a
           else
