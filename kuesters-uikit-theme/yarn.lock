@@ -1266,10 +1266,10 @@ gulp-csso@^4.0.1:
     plugin-error "^1.0.0"
     vinyl-sourcemaps-apply "^0.2.1"
 
-gulp-google-webfonts@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/gulp-google-webfonts/-/gulp-google-webfonts-2.1.0.tgz#b3966ae7ce4b8a0737431881bbacd56485a21ee3"
-  integrity sha512-u/4iUmZ1Qdusm36qhDU2epKbDJKmHhacfCXLVHtQpNZywn7yTn1gXMoJTw35pzLH54hrgsStjGVqXp4lnYRvEw==
+gulp-google-webfonts@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-google-webfonts/-/gulp-google-webfonts-4.0.0.tgz#459e689d262adc3b17399fcbc127a9540e0ebac2"
+  integrity sha512-O6wzsEDNfI+DUAJdO6HZfmIKejVt3gXSMzoNpIbbhgJciDTgfV5xYYZZs1/M0q7lagxPw856do4T5Q6RsHVDjA==
   dependencies:
     async "^0.9.0"
     commander "^2.9.0"
