@@ -1,50 +1,50 @@
-
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jens K&uuml;sters</title>
 	<!-- CSS FILES -->
-	<link rel="stylesheet" type="text/css" href="kuesters-uikit-theme/dist/css/app.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/app.css">
 </head>
-<body class="uk-light wrap uk-background-cover uk-background-secondary">
-<div class="uk-flex uk-flex-center uk-flex-middle uk-height-viewport uk-position-z-index uk-position-relative" data-uk-height-viewport="min-height: 400">
-
+<body class="bg-gray-900 text-gray-400 flex flex-col bg-cup-sm md:bg-cup-md lg:bg-cup-lg xl:bg-cup-xl bg-cover bg-center bg-fixed" x-data="{ 'showBio': false }" @keydown.escape="showBio = false" x-cloak>
+<div class="h-screen bg-opacity-50 bg-black flex items-center justify-center">
 	<!-- TEXT -->
-	<div class="uk-container uk-container-xsmall uk-flex-auto uk-text-center" data-uk-scrollspy="target: > .animate; cls: uk-animation-slide-bottom-small uk-invisible; delay: 300">
+	<div class="max-w-lg mx-auto text-center p-10">
 		<h1 id="logo">
 			<span>Jens K&uuml;sters</span>
 		</h1>
-		<h2 class="uk-heading-primary animate uk-invisible uk-h1">Hello!</h2>
-		<div class="uk-width-4-5@m uk-margin-auto animate uk-invisible uk-text-justify">
-			<p class="lead">My name is Jens Küsters and I'm living in the city of Neuss on the Rhine. <a href="#bio" data-uk-toggle data-uk-icon="arrow-right">read more</a></p>
-			<div id="bio" data-uk-modal>
-				<div class="uk-modal-dialog uk-modal-body uk-background-secondary uk-margin-auto-vertical" data-uk-overflow-auto>
-					<h2 class="uk-modal-title">My name is Jens Küsters and I'm living in the city of Neuss on the Rhine.</h2>
-					<button class="uk-modal-close-default" type="button" data-uk-close></button>
-					<p>I'm working as Director Publishing Technology at DuMont.next in Cologne. We support the regional media branches of the DuMont Media Group in publishing their content and services efficiently on digital channels. We provide the necessary technology, support it's users and operate it smoothly. We also consult our customers along the whole lifecycle of each product.</p>
-					<p>Furthermore I'm doing freelance development of websites and applications as well as consulting for many years now.</p>
-				</div>
+		<h2 class="text-gray-300 text-4xl mb-4">Hello!</h2>
+		<p class="text-xl tracking-wide">
+			My name is Jens Küsters and I'm living in the city of Neuss on the Rhine.
+			<button @click="showBio = true" class="text-white hover:underline hover:text-gray-300">read more <svg class="h-4 w-4 fill-current inline-block"><use xlink:href="dist/img/solid.svg#arrow-right" /></svg></button>
+		</p>
+		<div x-show="showBio" :class="{ 'bg-gray-900 bg-opacity-75 absolute inset-0 z-10 flex items-center justify-center': showBio }" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0 scale-90" x-transition:enter-end="opacity-100 scale-100">
+			<button @click="showBio = false" class="absolute top-0 right-0 m-5 p-2 bg-gray-200 text-gray-900 hover:bg-gray-400" type="button"><svg class="h-6 w-6 fill-current"><use xlink:href="dist/img/solid.svg#times" /></svg><span class="sr-only">Close</span></button>
+			<div class="max-w-md bg-gray-900 text-left p-8 shadow" x-show="showBio" @click.away="showBio = false">
+				<h2 class="text-3xl mb-8">My name is Jens Küsters and I'm living in the city of Neuss on the Rhine.</h2>
+				<p class="mb-4">I'm working as Director Publishing Technology at DuMont.next in Cologne. We support the regional media branches of the DuMont Media Group in publishing their content and services efficiently on digital channels. We provide the necessary technology, support it's users and operate it smoothly. We also consult our customers along the whole lifecycle of each product.</p>
+				<p>Furthermore I'm doing freelance development of websites and applications as well as consulting for many years now.</p>
 			</div>
 		</div>
-		<div class="uk-margin-medium-top animate uk-invisible" data-uk-margin data-uk-scrollspy-class="uk-animation-fade uk-invisible">
-			<a href="https://twitter.com/jenskuesters" target="_blank" rel="noopener noreferrer" class="uk-icon-button" data-uk-icon="twitter" data-uk-tooltip="pos: bottom" title="Twitter"></a>&nbsp;
-			<a href="https://www.facebook.com/jens.kuesters" target="_blank" rel="noopener noreferrer" class="uk-icon-button" data-uk-icon="facebook" data-uk-tooltip="pos: bottom" title="Facebook"></a>&nbsp;
-			<a href="https://www.instagram.com/derteaser" target="_blank" rel="noopener noreferrer" class="uk-icon-button" data-uk-icon="instagram" data-uk-tooltip="pos: bottom" title="Instagram"></a>&nbsp;
-			<a href="https://www.linkedin.com/in/jenskuesters/" target="_blank" rel="noopener noreferrer" class="uk-icon-button" data-uk-icon="linkedin" data-uk-tooltip="pos: bottom" title="LinkedIn"></a>&nbsp;
-			<a href="https://www.github.com/derteaser" target="_blank" rel="noopener noreferrer" class="uk-icon-button" data-uk-icon="github" data-uk-tooltip="pos: bottom" title="GitHub"></a>
+		<div class="icon-btn-group mt-16 flex flex-row flex-no-wrap items-center justify-center">
+			<a href="https://twitter.com/jenskuesters" target="_blank" rel="noopener noreferrer" title="Twitter"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/brands.svg#twitter" /></svg></a>&nbsp;
+			<a href="https://www.facebook.com/jens.kuesters" target="_blank" rel="noopener noreferrer" title="Facebook"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/brands.svg#facebook-f" /></svg></a>&nbsp;
+			<a href="https://www.instagram.com/derteaser" target="_blank" rel="noopener noreferrer" title="Instagram"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/brands.svg#instagram" /></svg></a>&nbsp;
+			<a href="https://www.linkedin.com/in/jenskuesters/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/brands.svg#linkedin" /></svg></a>&nbsp;
+			<a href="https://www.github.com/derteaser" target="_blank" rel="noopener noreferrer" title="GitHub"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/brands.svg#github" /></svg></a>
 		</div>
 	</div>
 	<!-- /TEXT -->
 	<!-- FOOT -->
-	<div class="uk-position-bottom-center uk-position-large uk-text-small uk-text-center">
-		&copy;2020<br>Jens K&uuml;sters | Gau&szlig;stra&szlig;e 37 | 41464 Neuss | Germany
+	<div class="absolute bottom-0 text-center text-xs w-screen px-12 pb-16">
+		&copy;2020 Jens K&uuml;sters<br>Gau&szlig;stra&szlig;e 37 | 41464 Neuss | Germany
 	</div>
 	<!-- /FOOT -->
 </div>
 
 <!-- JS FILES -->
-<script src="kuesters-uikit-theme/dist/js/app.min.js"></script>
+<script type="module" src="dist/alpine.js"></script>
+<script nomodule src="dist/alpine-ie11.js" defer></script>
 </body>
 </html>
