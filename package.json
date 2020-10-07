@@ -4,7 +4,7 @@
   "author": "Jens Kuesters",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.0",
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "alpinejs": "^2.7.0",
     "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.2",
