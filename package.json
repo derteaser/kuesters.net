@@ -1,23 +1,26 @@
 {
   "name": "kuesters-net-website",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Jens Kuesters",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.1",
     "alpinejs": "^2.8.0",
-    "autoprefixer": "^9.8.6",
-    "postcss-cli": "^7.1.2",
-    "postcss-import": "^12.0.1",
-    "postcss-nested": "^4.2.3",
-    "tailwindcss": "^1.9.6"
+    "autoprefixer": "^10.2.1",
+    "heroicons": "^0.4.2",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0",
+    "postcss-nested": "^5.0.3",
+    "simple-icons": "^4.6.0",
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-csso": "^4.0.1",
     "gulp-env": "^0.4.0",
-    "gulp-postcss": "^8.0.0",
+    "gulp-postcss": "^9.0.0",
     "gulp-rename": "^2.0.0",
+    "gulp-svg-sprite": "^1.5.0",
     "gulp-uglify": "^3.0.2"
   }
 }

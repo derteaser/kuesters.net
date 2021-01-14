@@ -7,20 +7,20 @@
 	<!-- CSS FILES -->
 	<link rel="stylesheet" type="text/css" href="dist/app.css">
 </head>
-<body class="bg-gray-900 text-gray-400 flex flex-col bg-cup-sm md:bg-cup-md lg:bg-cup-lg xl:bg-cup-xl bg-cover bg-center bg-fixed" x-data="{ 'showBio': false }" @keydown.escape="showBio = false" x-cloak>
+<body class="bg-gray-900 text-gray-300 flex flex-col bg-cup-sm md:bg-cup-md lg:bg-cup-lg xl:bg-cup-xl bg-cover bg-center bg-fixed" x-data="{ 'showBio': false }" @keydown.escape="showBio = false" x-cloak>
 <div class="h-screen bg-opacity-50 bg-black flex items-center justify-center">
 	<!-- TEXT -->
 	<div class="max-w-lg mx-auto text-center p-10">
 		<h1 id="logo">
 			<span>Jens K&uuml;sters</span>
 		</h1>
-		<h2 class="text-gray-300 text-4xl mb-4">Hello!</h2>
+		<h2 class="text-gray-200 text-4xl mb-4">Hello!</h2>
 		<p class="text-xl tracking-wide">
 			My name is Jens Küsters and I'm living in the city of Neuss on the Rhine.
-			<button @click="showBio = true" class="text-white hover:underline hover:text-gray-300">read more <svg class="h-4 w-4 fill-current inline-block"><use xlink:href="dist/img/solid.svg#arrow-right" /></svg></button>
+			<button @click="showBio = true" class="text-white hover:underline hover:text-gray-200 focus:outline-none">read more <svg class="h-4 w-4 fill-current inline-block"><use xlink:href="dist/img/icons.svg#arrow-narrow-right" /></svg></button>
 		</p>
 		<div x-show="showBio" :class="{ 'bg-gray-900 bg-opacity-75 absolute inset-0 z-10 flex items-center justify-center': showBio }" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0 scale-90" x-transition:enter-end="opacity-100 scale-100">
-			<button @click="showBio = false" class="absolute top-0 right-0 m-5 p-2 bg-gray-200 text-gray-900 hover:bg-gray-400" type="button"><svg class="h-6 w-6 fill-current"><use xlink:href="dist/img/solid.svg#times" /></svg><span class="sr-only">Close</span></button>
+			<button @click="showBio = false" class="absolute top-0 right-0 m-5 p-2 bg-gray-100 text-gray-900 hover:bg-gray-300" type="button"><svg class="h-6 w-6 fill-current"><use xlink:href="dist/img/icons.svg#x" /></svg><span class="sr-only">Close</span></button>
 			<div class="max-w-md bg-gray-900 text-left p-8 shadow" x-show="showBio" @click.away="showBio = false">
 				<h2 class="text-3xl mb-8">My name is Jens Küsters and I'm living in the city of Neuss on the Rhine.</h2>
 				<p class="mb-4">I'm working as Director Publishing Technology at DuMont.next in Cologne. We support the regional media branches of the DuMont Media Group in publishing their content and services efficiently on digital channels. We provide the necessary technology, support it's users and operate it smoothly. We also consult our customers along the whole lifecycle of each product.</p>
@@ -28,11 +28,11 @@
 			</div>
 		</div>
 		<div class="icon-btn-group mt-16 flex flex-row flex-no-wrap items-center justify-center">
-			<a href="https://twitter.com/jenskuesters" target="_blank" rel="noopener noreferrer" title="Twitter"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/brands.svg#twitter" /></svg></a>&nbsp;
-			<a href="https://www.facebook.com/jens.kuesters" target="_blank" rel="noopener noreferrer" title="Facebook"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/brands.svg#facebook-f" /></svg></a>&nbsp;
-			<a href="https://www.instagram.com/derteaser" target="_blank" rel="noopener noreferrer" title="Instagram"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/brands.svg#instagram" /></svg></a>&nbsp;
-			<a href="https://www.linkedin.com/in/jenskuesters/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/brands.svg#linkedin" /></svg></a>&nbsp;
-			<a href="https://www.github.com/derteaser" target="_blank" rel="noopener noreferrer" title="GitHub"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/brands.svg#github" /></svg></a>
+			<a href="https://twitter.com/jenskuesters" target="_blank" rel="noopener noreferrer" title="Twitter"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/icons.svg#twitter" /></svg></a>&nbsp;
+			<a href="https://www.facebook.com/jens.kuesters" target="_blank" rel="noopener noreferrer" title="Facebook"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/icons.svg#facebook" /></svg></a>&nbsp;
+			<a href="https://www.instagram.com/derteaser" target="_blank" rel="noopener noreferrer" title="Instagram"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/icons.svg#instagram" /></svg></a>&nbsp;
+			<a href="https://www.linkedin.com/in/jenskuesters/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/icons.svg#linkedin" /></svg></a>&nbsp;
+			<a href="https://www.github.com/derteaser" target="_blank" rel="noopener noreferrer" title="GitHub"><svg class="h-5 w-5 fill-current"><use xlink:href="dist/img/icons.svg#github" /></svg></a>
 		</div>
 	</div>
 	<!-- /TEXT -->

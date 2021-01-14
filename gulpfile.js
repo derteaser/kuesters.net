@@ -3,6 +3,7 @@ const postcss = require('gulp-postcss');
 const minifyCSS = require('gulp-csso');
 const rename = require('gulp-rename');
 const env = require('gulp-env');
+const svgSprite = require('gulp-svg-sprite');
 
 
 gulp.task('dev-css', function () {
@@ -43,13 +44,30 @@ gulp.task('copy-js-tools', function () {
         .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('copy-icons', function () {
+gulp.task('icons', function () {
+    const config = {
+        mode: {
+            symbol: {
+                dest: '.',
+                sprite: 'icons.svg'
+            }
+        }
+    };
+
     return gulp.src([
-        'node_modules/@fortawesome/fontawesome-free/sprites/brands.svg',
-        'node_modules/@fortawesome/fontawesome-free/sprites/regular.svg',
-        'node_modules/@fortawesome/fontawesome-free/sprites/solid.svg',
+        // Navigation
+        'node_modules/heroicons/outline/x.svg',
+        // Directions
+        'node_modules/heroicons/outline/arrow-narrow-right.svg',
+        // Brands
+        'node_modules/simple-icons/icons/facebook.svg',
+        'node_modules/simple-icons/icons/github.svg',
+        'node_modules/simple-icons/icons/instagram.svg',
+        'node_modules/simple-icons/icons/linkedin.svg',
+        'node_modules/simple-icons/icons/twitter.svg',
     ])
-        .pipe(gulp.dest('./dist/img'));
+        .pipe(svgSprite(config))
+        .pipe(gulp.dest('dist/img'));
 });
 
-gulp.task('default', gulp.series('dev-css', 'copy-js-tools', 'copy-icons', 'prod-css'));
+gulp.task('default', gulp.series('dev-css', 'copy-js-tools', 'icons', 'prod-css'));
