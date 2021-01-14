@@ -65,6 +65,7 @@ gulp.task('icons', function () {
         'node_modules/simple-icons/icons/instagram.svg',
         'node_modules/simple-icons/icons/linkedin.svg',
         'node_modules/simple-icons/icons/twitter.svg',
+        'node_modules/simple-icons/icons/xing.svg',
     ])
         .pipe(svgSprite(config))
         .pipe(gulp.dest('dist/img'));
