@@ -12,7 +12,7 @@
     "postcss-import": "^14.0.0",
     "postcss-nested": "^5.0.5",
     "simple-icons": "^4.13.0",
-    "tailwindcss": "^2.0.3"
+    "tailwindcss": "^2.0.4"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
