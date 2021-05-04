@@ -44,31 +44,4 @@ gulp.task('copy-js-tools', function () {
         .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('icons', function () {
-    const config = {
-        mode: {
-            symbol: {
-                dest: '.',
-                sprite: 'icons.svg'
-            }
-        }
-    };
-
-    return gulp.src([
-        // Navigation
-        'node_modules/heroicons/outline/x.svg',
-        // Directions
-        'node_modules/heroicons/outline/arrow-narrow-right.svg',
-        // Brands
-        'node_modules/simple-icons/icons/facebook.svg',
-        'node_modules/simple-icons/icons/github.svg',
-        'node_modules/simple-icons/icons/instagram.svg',
-        'node_modules/simple-icons/icons/linkedin.svg',
-        'node_modules/simple-icons/icons/twitter.svg',
-        'node_modules/simple-icons/icons/xing.svg',
-    ])
-        .pipe(svgSprite(config))
-        .pipe(gulp.dest('dist/img'));
-});
-
-gulp.task('default', gulp.series('dev-css', 'copy-js-tools', 'icons', 'prod-css'));
+gulp.task('default', gulp.series('dev-css', 'copy-js-tools', 'prod-css'));
