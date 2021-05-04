@@ -3,8 +3,6 @@ const postcss = require('gulp-postcss');
 const minifyCSS = require('gulp-csso');
 const rename = require('gulp-rename');
 const env = require('gulp-env');
-const svgSprite = require('gulp-svg-sprite');
-
 
 gulp.task('dev-css', function () {
     return gulp
