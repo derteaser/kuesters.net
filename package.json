@@ -12,7 +12,7 @@
     "heroicons": "^1.0.1",
     "postcss": "^8.2.15",
     "postcss-cli": "^8.3.1",
-    "postcss-import": "^14.0.1",
+    "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.5",
     "simple-icons": "^4.23.0",
     "tailwindcss": "^2.1.2"
