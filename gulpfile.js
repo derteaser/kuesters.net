@@ -36,8 +36,7 @@ gulp.task('prod-css', function () {
 
 gulp.task('copy-js-tools', function () {
     return gulp.src([
-        'node_modules/alpinejs/dist/alpine.js',
-        'node_modules/alpinejs/dist/alpine-ie11.js',
+        'node_modules/alpinejs/dist/cdn.min.js',
     ])
         .pipe(gulp.dest('./dist'));
 });
