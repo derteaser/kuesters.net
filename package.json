@@ -15,7 +15,7 @@
     "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.5",
     "simple-icons": "^5.6.0",
-    "tailwindcss": "^2.2.6"
+    "tailwindcss": "^2.2.7"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
