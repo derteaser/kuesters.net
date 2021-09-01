@@ -1,7 +1,0 @@
-.icon-btn-group a, .icon-btn {
-    @apply bg-gray-700 bg-opacity-50 text-gray-300 rounded-full p-2 mx-1;
-
-    &:hover {
-        @apply text-gray-100;
-    }
-}

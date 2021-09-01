@@ -1,9 +1,0 @@
-@import "../node_modules/tailwindcss/base.css";
-@import "./fonts.css";
-@import "./base.css";
-
-@import "../node_modules/tailwindcss/components.css";
-@import "./components.css";
-
-@import "../node_modules/tailwindcss/utilities.css";
-@import "./utilities.css";

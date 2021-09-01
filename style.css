@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: local('Kaushan Script'), local('KaushanScript-Regular'), url('fonts/Kaushan_Script-normal-400.woff') format('woff');
+    unicode-range: U+0-10FFFF;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    [x-cloak] {
+        display: none;
+    }
+
+    h1 {
+        font-family: "Kaushan Script", cursive;
+        margin-bottom: 30px;
+        @apply text-5xl;
+        @apply leading-snug;
+        @apply font-light;
+        @apply text-white;
+        transform: rotate(-5deg);
+
+        span {
+            padding: 4px 15px;
+            @apply relative;
+
+            &:before {
+                @apply absolute;
+                top: 40px;
+                left: 0;
+                width: 30px;
+                height: 4px;
+                content: '';
+                background: #fff;
+                margin-left: -30px;
+            }
+
+            &:after {
+                @apply absolute;
+                top: 40px;
+                right: 0;
+                width: 30px;
+                height: 4px;
+                content: '';
+                background: #fff;
+                margin-right: -30px;
+            }
+        }
+    }
+}
+
+@layer components {
+    .icon-btn-group a, .icon-btn {
+        @apply bg-gray-700 bg-opacity-50 text-gray-300 rounded-full p-2 mx-1;
+
+        &:hover {
+            @apply text-gray-100;
+        }
+    }
+}
+
+@layer utilities {
+    @responsive {
+        .bg-cup-sm {
+            background-image: url("img/cup-640-700.jpg");
+        }
+
+        .bg-cup-md {
+            background-image: url("img/cup-960-700.jpg");
+        }
+
+        .bg-cup-lg {
+            background-image: url("img/cup-1200-900.jpg");
+        }
+
+        .bg-cup-xl {
+            background-image: url("img/cup-2000-1000.jpg");
+        }
+    }
+}

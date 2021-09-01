@@ -24,4 +24,4 @@ mixer([
     'node_modules/simple-icons/icons/twitter.svg',
     'node_modules/simple-icons/icons/xing.svg',
 ], { spriteConfig: { usages: false }, spriteClass: MySprite } )
-    .then(result => result.write('dist/img/icons.svg'));
+    .then(result => result.write('img/icons.svg'));
