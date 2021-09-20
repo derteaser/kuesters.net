@@ -10,7 +10,7 @@
     "icons": "node icons.js"
   },
   "devDependencies": {
-    "alpinejs": "^3.3.4",
+    "alpinejs": "^3.3.5",
     "autoprefixer": "^10.3.4",
     "heroicons": "^1.0.4",
     "postcss": "^8.3.6",
