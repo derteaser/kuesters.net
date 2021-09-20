@@ -1888,10 +1888,10 @@ sigmund@^1.0.1:
   resolved "https://registry.yarnpkg.com/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
   integrity sha1-P/IfGYytIXX587eBhT/ZTQ0ZtZA=
 
-simple-icons@^5.12.0:
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.12.0.tgz#8f514005f1aef02464a014706cc8e5b07d4d72c8"
-  integrity sha512-iF5ZJuv/jPU2tdkc5aNXsirQg2kOggvcOUw2kMafCrelrr3Sj0ywRJkr+0uVniD1Kj6ayT1yb1IquBRHrYw10g==
+simple-icons@^5.15.0:
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.15.0.tgz#bb10aee490cfd704b71b1ba810c70e553dc7cffe"
+  integrity sha512-bzlD0K7HS5qgLMVzzfIxua8EzpYhTZ4yTYBQbGpeaih0DDdmsWbD41Dz9eTBpsjLEV2475FcWSi8bCQqTd8TQg==
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
