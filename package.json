@@ -19,6 +19,6 @@
     "simple-icons": "^5.12.0",
     "svg-mixer": "^2.3.14",
     "tailwindcss": "^2.2.16",
-    "vite": "^2.5.10"
+    "vite": "^2.6.1"
   }
 }
