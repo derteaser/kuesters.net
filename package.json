@@ -16,7 +16,7 @@
     "postcss": "^8.3.11",
     "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.6",
-    "simple-icons": "^5.19.0",
+    "simple-icons": "^5.21.1",
     "svg-mixer": "^2.3.14",
     "tailwindcss": "^2.2.19",
     "vite": "^2.6.13"
