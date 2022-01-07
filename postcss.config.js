@@ -1,8 +1,8 @@
 module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-    'postcss-import': {},
-    'postcss-nested': {},
-  },
+  plugins: [
+    require('autoprefixer'),
+    require('postcss-import'),
+    require('tailwindcss/nesting'),
+    require('tailwindcss'),
+  ],
 }
