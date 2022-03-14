@@ -1823,10 +1823,10 @@ sigmund@^1.0.1:
   resolved "https://registry.yarnpkg.com/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
   integrity sha1-P/IfGYytIXX587eBhT/ZTQ0ZtZA=
 
-simple-icons@^6.13.0:
-  version "6.13.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-6.13.0.tgz#91722bbcc6d6dc7a4e2b4890f3dc5188345e7e80"
-  integrity sha512-HlAeBhZsL16ghjgTeKcg2ff5CqBkHSNSp40TUe+h/cuEZEYN58XblfjCpFRwUHyctSW1H5T56zRJ45763JQTGw==
+simple-icons@^6.14.0:
+  version "6.14.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-6.14.0.tgz#0440e5a9354e6c83ffd4db70fd7b49ddd6f050a9"
+  integrity sha512-G1BloriCtFDxdxLPJJ7Ri4ffYp4ET/KOvpqTWaFUxeHcGognm468hmXp5g7auPYxKg2OsPqJ1zCYEjCRMqFtMg==
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
