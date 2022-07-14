@@ -60,10 +60,10 @@
 
 @layer components {
     .icon-btn-group a, .icon-btn {
-        @apply bg-gray-700 bg-opacity-50 text-gray-300 rounded-full p-2 mx-1;
+        @apply bg-gray-700 bg-opacity-30 backdrop-blur-sm text-gray-300 rounded-full p-2 mx-1;
 
         &:hover {
-            @apply text-gray-100;
+            @apply text-gray-100 bg-opacity-80;
         }
     }
 }
