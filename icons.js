@@ -13,9 +13,9 @@ class MySprite extends mixer.Sprite {
 
 mixer([
     // Navigation
-    'node_modules/heroicons/outline/x.svg',
+    'node_modules/heroicons/24/outline/x-mark.svg',
     // Directions
-    'node_modules/heroicons/outline/arrow-narrow-right.svg',
+    'node_modules/heroicons/24/outline/arrow-long-right.svg',
     // Brands
     'node_modules/simple-icons/icons/facebook.svg',
     'node_modules/simple-icons/icons/github.svg',
