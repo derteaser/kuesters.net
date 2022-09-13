@@ -1,24 +1,20 @@
 {
-  "name": "kuesters-net-website",
-  "version": "2.1.0",
-  "author": "Jens Kuesters",
+  "name": "kuesters-astro",
+  "version": "1.0.0",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
-    "icons": "node icons.js"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "devDependencies": {
+    "@astrojs/alpinejs": "0.1.2",
+    "@astrojs/tailwind": "1.0.0",
+    "@types/alpinejs": "3.7.0",
     "alpinejs": "3.10.3",
-    "autoprefixer": "10.4.8",
-    "heroicons": "2.0.10",
-    "postcss": "8.4.16",
-    "postcss-import": "15.0.0",
-    "postcss-nested": "5.0.6",
-    "simple-icons": "7.10.0",
-    "svg-mixer": "2.3.14",
-    "tailwindcss": "3.1.8",
-    "vite": "3.1.0"
+    "astro": "1.2.2",
+    "astro-icon": "0.7.3"
   }
 }
