@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jens Küsters</title>
     <script src="https://celebrated-ideal.kuesters.net/script.js" data-site="VVRFYWBM" defer></script>
-<link rel="stylesheet" href="/assets/index.4822d566.css" /><script type="module" src="/page.0e1ef5ec.js"></script></head>
+<link rel="stylesheet" href="/assets/index.60db3573.css" /><script type="module" src="/page.0e1ef5ec.js"></script></head>
 <body class="bg-gray-900 text-gray-300 flex flex-col bg-cup-sm md:bg-cup-md lg:bg-cup-lg xl:bg-cup-xl bg-cover bg-center bg-fixed" x-data="{ 'showBio': false }" @keydown.escape="showBio = false">
 <div class="h-screen bg-opacity-50 bg-black flex items-center justify-center">
     <main>
@@ -16,7 +16,7 @@
             </h1>
             <h2 class="text-gray-200 text-4xl mb-4">Hello!</h2>
             <p class="text-xl tracking-wide">
-                My name is Jens Küsters and I'm living in the city of Neuss on the Rhine.
+                My name is Jens Küsters and I&#39;m living in the city of Neuss on the Rhine.
                 <button @click="showBio = true" class="text-white hover:underline hover:text-gray-200 focus:outline-none">
                     read more
                     <svg viewBox="0 0 16 16" class="h-4 w-4 fill-current inline-block" astro-icon="bi:arrow-right"><path fill="currentColor" fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg>
@@ -26,14 +26,10 @@
                 <button @click="showBio = false" class="absolute top-0 right-0 m-5 p-2 bg-gray-100 text-gray-900 hover:bg-gray-300 focus:outline-none" type="button">
                     <svg viewBox="0 0 16 16" class="h-6 w-6 fill-current" astro-icon="bi:x"><path fill="currentColor" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/></svg>
                     <span class="sr-only">Close</span></button>
-                <div class="max-w-md bg-gray-900 text-left p-8 shadow" x-show="showBio" @click.away="showBio = false">
-                    <h2 class="text-3xl mb-8">My name is Jens Küsters and I'm living in the city of Neuss on the Rhine.</h2>
-                    <p class="mb-4">I'm working as Director Digital Development & Technology at Handelsblatt Media Group in
-                        Duesseldorf. We support <a href="https://www.handelsblatt.com" target="_blank" rel="noopener noreferrer">Handelsblatt</a> and <a href="https://www.wiwo.de" target="_blank" rel="noopener noreferrer">WirtschaftsWoche</a> in publishing their content and services
-                        efficiently on digital channels. We provide the necessary technology, support it's users and operate
-                        it smoothly. We also consult our customers along the whole lifecycle of each product.</p>
-                    <p>Furthermore I'm doing freelance development of websites and applications as well as consulting for
-                        many years now.</p>
+                <div class="prose prose-invert prose-h2:text-3xl max-w-md bg-gray-900 text-left p-8 space-y-4 shadow" x-show="showBio" @click.away="showBio = false">
+                    <h2>My name is Jens Küsters and I&#39;m living in the city of Neuss on the Rhine.</h2>
+                    <p>I’m working as Director Digital Development &#x26; Technology at Handelsblatt Media Group in Duesseldorf. We support <a href="https://www.handelsblatt.com" target="_blank" rel="noopener noreferrer">Handelsblatt</a> and <a href="https://www.wiwo.de" target="_blank" rel="noopener noreferrer">WirtschaftsWoche</a> in publishing their content and services efficiently on digital channels. We provide the necessary technology, support it’s users and operate it smoothly. We also consult our customers along the whole lifecycle of each product.</p>
+<p>Furthermore I’m doing freelance development of websites and applications as well as consulting for many years now.</p>
                 </div>
             </div>
             <div class="icon-btn-group mt-16 flex flex-row flex-no-wrap items-center justify-center">
