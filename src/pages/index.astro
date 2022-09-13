@@ -1,6 +1,7 @@
 ---
 import { Icon } from 'astro-icon'
 import Layout from '../layouts/Layout.astro';
+import {Content as AboutContent, frontmatter as AboutFrontmatter} from '../components/about.md';
 ---
 <Layout>
     <main>
@@ -10,7 +11,7 @@ import Layout from '../layouts/Layout.astro';
             </h1>
             <h2 class="text-gray-200 text-4xl mb-4">Hello!</h2>
             <p class="text-xl tracking-wide">
-                My name is Jens Küsters and I'm living in the city of Neuss on the Rhine.
+                {AboutFrontmatter.title}
                 <button @click="showBio = true" class="text-white hover:underline hover:text-gray-200 focus:outline-none">
                     read more
                     <Icon name="bi:arrow-right" class="h-4 w-4 fill-current inline-block" />
@@ -18,20 +19,14 @@ import Layout from '../layouts/Layout.astro';
             </p>
             <div x-show="showBio"
                 :class="{ 'bg-gray-800 bg-opacity-50 backdrop-blur-md absolute inset-0 z-10 flex items-center justify-center': showBio }"
-                x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0 scale-90"
-                x-transition:enter-end="opacity-100 scale-100" x-cloak>
+                x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0 scale-90" x-transition:enter-end="opacity-100 scale-100" x-cloak>
                 <button @click="showBio = false"
                         class="absolute top-0 right-0 m-5 p-2 bg-gray-100 text-gray-900 hover:bg-gray-300 focus:outline-none" type="button">
                     <Icon name="bi:x" class="h-6 w-6 fill-current" />
                     <span class="sr-only">Close</span></button>
-                <div class="max-w-md bg-gray-900 text-left p-8 shadow" x-show="showBio" @click.away="showBio = false">
-                    <h2 class="text-3xl mb-8">My name is Jens Küsters and I'm living in the city of Neuss on the Rhine.</h2>
-                    <p class="mb-4">I'm working as Director Digital Development & Technology at Handelsblatt Media Group in
-                        Duesseldorf. We support <a href="https://www.handelsblatt.com" target="_blank" rel="noopener noreferrer">Handelsblatt</a> and <a href="https://www.wiwo.de" target="_blank" rel="noopener noreferrer">WirtschaftsWoche</a> in publishing their content and services
-                        efficiently on digital channels. We provide the necessary technology, support it's users and operate
-                        it smoothly. We also consult our customers along the whole lifecycle of each product.</p>
-                    <p>Furthermore I'm doing freelance development of websites and applications as well as consulting for
-                        many years now.</p>
+                <div class="prose prose-invert prose-h2:text-3xl max-w-md bg-gray-900 text-left p-8 space-y-4 shadow" x-show="showBio" @click.away="showBio = false">
+                    <h2>{AboutFrontmatter.title}</h2>
+                    <AboutContent/>
                 </div>
             </div>
             <div class="icon-btn-group mt-16 flex flex-row flex-no-wrap items-center justify-center">
