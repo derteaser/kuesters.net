@@ -484,10 +484,10 @@
   dependencies:
     "@types/estree" "*"
 
-"@types/alpinejs@3.7.0":
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/@types/alpinejs/-/alpinejs-3.7.0.tgz#8d4f702c76c05e18729f92d64905d39dc1005762"
-  integrity sha512-iMvJwgJHYFUlMOixKF68BmMQZbnxVA/erh1blbfhY8Z6u6oleEJViz8bye58roLOp8jyBNOsXtobyq7zR/7A2g==
+"@types/alpinejs@3.7.1":
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/@types/alpinejs/-/alpinejs-3.7.1.tgz#4726758a0579ef0afd3a9e80ff64840d5943a08b"
+  integrity sha512-gzwyuHXH/meGQQhurMGWlZgMQxe18lMOoSPd7X6CvGoDelHte9EsU7SpTIoRu8yYir0tbHDeaSMdX9LeQz/QtA==
   dependencies:
     "@vue/reactivity" "^3.2.26"
 
