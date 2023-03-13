@@ -10,10 +10,10 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@astrojs/alpinejs@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/alpinejs/-/alpinejs-0.2.0.tgz#64f1b67cf144fa23dc474abaf53f5afd5c3be9f5"
-  integrity sha512-cftUt1kiuJa2FazZBnxmudwgpdFR26CQ1FdGTTXBa1WS/8ggwTvsBqr3yzEMge29Fp63TIF+CLdirBPJ7oAfNA==
+"@astrojs/alpinejs@0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/alpinejs/-/alpinejs-0.2.1.tgz#8a28ad8616d46dee59245af2c44090a02128c97c"
+  integrity sha512-lIwCw2XUB/3HAstWpqGvUnSH4BnFwXxkSxq+jpkPw0U1mMw4JP4RauGUbD1F2acZXun7T68alJydAF1dLLCv4A==
 
 "@astrojs/compiler@^0.31.3":
   version "0.31.4"
