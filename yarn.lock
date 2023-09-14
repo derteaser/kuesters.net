@@ -635,12 +635,10 @@
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
-"@types/alpinejs@3.7.2":
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/@types/alpinejs/-/alpinejs-3.7.2.tgz#44ff5f7949a9f9d875b94cdc68da46db08857cb7"
-  integrity sha512-M/PAVysvGxOlhifP/6XmO8bj5HW9w+Ygr03PdryM3tCb1KuQEaAAvVcyeZc5T75PbjH3dCzy/M/w/nJEE0FTSg==
-  dependencies:
-    "@vue/reactivity" "^3.2.26"
+"@types/alpinejs@3.13.0":
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/@types/alpinejs/-/alpinejs-3.13.0.tgz#6646d2505c9cf1637b9e4772115ea57d43d1aba7"
+  integrity sha512-OZ/hZD3DmrJJOylcLlgsJkLIKOrXhIaWWJF48Zu+V2VkSY2+yQ66uqVRjG0xzQKSAiGGdKTW4/bcqJujO0HKHw==
 
 "@types/babel__core@^7.20.1":
   version "7.20.1"
@@ -733,13 +731,6 @@
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.6.tgz#250a7b16c3b91f672a24552ec64678eeb1d3a08d"
   integrity sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==
 
-"@vue/reactivity@^3.2.26":
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.3.4.tgz#a27a29c6cd17faba5a0e99fbb86ee951653e2253"
-  integrity sha512-kLTDLwd0B1jG08NBF3R5rqULtv/f8x3rOFByTDz4J53ttIQEDmALqKqXY0J+XQeN0aV2FBxY8nJDf88yvOPAqQ==
-  dependencies:
-    "@vue/shared" "3.3.4"
-
 "@vue/reactivity@~3.1.1":
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.1.5.tgz#dbec4d9557f7c8f25c2635db1e23a78a729eb991"
@@ -751,11 +742,6 @@
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.1.5.tgz#74ee3aad995d0a3996a6bb9533d4d280514ede03"
   integrity sha512-oJ4F3TnvpXaQwZJNF3ZK+kLPHKarDmJjJ6jyzVNDKH9md1dptjC7lWR//jrGuLdek/U6iltWxqAnYOu8gCiOvA==
-
-"@vue/shared@3.3.4":
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.3.4.tgz#06e83c5027f464eef861c329be81454bc8b70780"
-  integrity sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==
 
 acorn@^8.10.0:
   version "8.10.0"
