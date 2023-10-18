@@ -678,10 +678,10 @@
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
-"@types/alpinejs@3.13.2":
-  version "3.13.2"
-  resolved "https://registry.yarnpkg.com/@types/alpinejs/-/alpinejs-3.13.2.tgz#515be283761393ef64f0b8812eb5b0ccb3caa9e0"
-  integrity sha512-kRGGjngGMCw8H4BIDbaDLwuGNIsrzdvt54kKqLe6O8ZLTNW5swEMr6j2ByH/vUo46ajqf2Qbxh6fcxPDrfEU+Q==
+"@types/alpinejs@3.13.3":
+  version "3.13.3"
+  resolved "https://registry.yarnpkg.com/@types/alpinejs/-/alpinejs-3.13.3.tgz#6717fe9d63efb0414501c5913c351922796b0686"
+  integrity sha512-ZMxJlDxDDqn94gBWOkeGulVw3nUOy/rPGXlyQksnlzwzuipl4kW0E/tFzAiU4uKSu6UXZL94wReRorln+2FStg==
 
 "@types/babel__core@^7.20.1":
   version "7.20.1"
@@ -805,10 +805,10 @@ acorn@^8.10.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.10.0.tgz#8be5b3907a67221a81ab23c7889c4c5526b62ec5"
   integrity sha512-F0SAmZ8iUtS//m8DmCTA0jlh6TDKkHQyK6xc6V4KDTyZKA9dnvX9/3sRTVQrWm79glUAZbnmmNcdYwUIHWVybw==
 
-alpinejs@3.13.1:
-  version "3.13.1"
-  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-3.13.1.tgz#811a61af653906840babb2fde2ef58261ad8c632"
-  integrity sha512-/LZ7mumW02V7AV5xTTftJFHS0I3KOXLl7tHm4xpxXAV+HJ/zjTT0n8MU7RZ6UoGPhmO/i+KEhQojaH/0RsH5tg==
+alpinejs@3.13.2:
+  version "3.13.2"
+  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-3.13.2.tgz#19723278b14bd9d1cc46859b5ac6225fcce2c228"
+  integrity sha512-WzojeeN082kLZznGI1HAuP8yFJSWqJ1fGdz2mUjj45H4y0XwToE7fFqtI3mCPRR+BpcSbxT/NL+FyPnYAWSltw==
   dependencies:
     "@vue/reactivity" "~3.1.1"
 
