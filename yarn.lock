@@ -678,10 +678,10 @@
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
-"@types/alpinejs@3.13.3":
-  version "3.13.3"
-  resolved "https://registry.yarnpkg.com/@types/alpinejs/-/alpinejs-3.13.3.tgz#6717fe9d63efb0414501c5913c351922796b0686"
-  integrity sha512-ZMxJlDxDDqn94gBWOkeGulVw3nUOy/rPGXlyQksnlzwzuipl4kW0E/tFzAiU4uKSu6UXZL94wReRorln+2FStg==
+"@types/alpinejs@3.13.5":
+  version "3.13.5"
+  resolved "https://registry.yarnpkg.com/@types/alpinejs/-/alpinejs-3.13.5.tgz#bfe268249f3fd470c7ce9cc6910d0c28a3d47091"
+  integrity sha512-BSNTroRhmBkNiyd7ELK/5Boja92hnQMST6H4z1BqXKeMVzHjp9o1j5poqd5Tyhjd8oMFwxYC4I00eghfg2xrTA==
 
 "@types/babel__core@^7.20.1":
   version "7.20.1"
