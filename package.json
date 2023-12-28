@@ -10,7 +10,7 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/alpinejs": "0.3.1",
+    "@astrojs/alpinejs": "0.3.2",
     "@astrojs/tailwind": "5.1.0",
     "@tailwindcss/typography": "0.5.10",
     "@types/alpinejs": "3.13.5",
