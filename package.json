@@ -15,7 +15,7 @@
     "@tailwindcss/typography": "0.5.10",
     "@types/alpinejs": "3.13.6",
     "alpinejs": "3.13.3",
-    "astro": "4.0.9",
+    "astro": "4.1.0",
     "astro-icon": "0.8.2",
     "autoprefixer": "10.4.16",
     "postcss": "8.4.33",
