@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import alpine from '@astrojs/alpinejs';
 import tailwind from '@astrojs/tailwind';
+import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,7 +9,8 @@ export default defineConfig({
         alpine(), 
         tailwind({
             config: { applyBaseStyles: false },
-        })
+        }),
+        icon(),
     ],
     vite: {
         ssr: {
