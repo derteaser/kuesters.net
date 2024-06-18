@@ -947,10 +947,10 @@ acorn@^8.12.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.12.0.tgz#1627bfa2e058148036133b8d9b51a700663c294c"
   integrity sha512-RTvkC4w+KNXrM39/lWCUaG0IbRkWdCv7W/IOW9oU6SawyxulvkQy5HQPVTKxEjczcUvapcrw3cFx/60VN/NRNw==
 
-alpinejs@3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-3.14.0.tgz#f882fa6dcd524f30f2383949d2c0ed2fdb0c9750"
-  integrity sha512-YCWF95PMJqePe9ll6KMyDt/nLhh2R7RhqBf4loEmLzIskcHque4Br/9UgAa6cw13H0Cm3FM9e1hzDwP5z5wlDA==
+alpinejs@3.14.1:
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-3.14.1.tgz#549e056c3b75e57c0f23076a13cde09da684ba0a"
+  integrity sha512-ICar8UsnRZAYvv/fCNfNeKMXNoXGUfwHrjx7LqXd08zIP95G2d9bAOuaL97re+1mgt/HojqHsfdOLo/A5LuWgQ==
   dependencies:
     "@vue/reactivity" "~3.1.1"
 
