@@ -529,9 +529,9 @@
   integrity sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw==
 
 "@iconify-json/bi@^1.1.23":
-  version "1.1.24"
-  resolved "https://registry.yarnpkg.com/@iconify-json/bi/-/bi-1.1.24.tgz#de092556d3c32f64051ec65d0ffa7ec134f3c898"
-  integrity sha512-K8U7s6Hm0Y06q9z41AGLLe+zuwZ7t8LNLG0EUkzZMvUMoZwZosmzFWlp2ajit1MGX+ealu4IKkMioKgjVNQ5ZQ==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@iconify-json/bi/-/bi-1.2.0.tgz#8a9fecf610604a4b68374e9e71b4723d4e04f705"
+  integrity sha512-kaBV87cQlyeMkBBiMqsf3b43Nsxdk/rYKvR29dnktht57WUyHCnBAuH+ca/bscX856CzRpVX+sYs7arjrJD0qA==
   dependencies:
     "@iconify/types" "*"
 
