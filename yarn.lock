@@ -408,9 +408,9 @@
     "@iconify/types" "*"
 
 "@iconify-json/simple-icons@^1.1.88":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@iconify-json/simple-icons/-/simple-icons-1.2.6.tgz#4f17b3d5bfa6c2fd32111c76a18169ae32969ea1"
-  integrity sha512-E4asFcJ3JY/mtk6zeYCSQBBrmG4AncGo8vQ9ZO2oY8h/qA3TlGYSIoYzwRjmDKuFu30QwWJQMS43kka0JcPZUg==
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@iconify-json/simple-icons/-/simple-icons-1.2.7.tgz#108b3924a16e361c549e111fbb58910878ca4512"
+  integrity sha512-0Qx3jf2AjocJx/6VQOFU5KDINAWH/i+hxPBIePSVJhQVS/W3G1/MZYkOD5yFw/i9+lhBMAEdbfM3bmF6qjnSmg==
   dependencies:
     "@iconify/types" "*"
 
