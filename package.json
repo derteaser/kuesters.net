@@ -23,8 +23,9 @@
     "typescript": "5.7.2"
   },
   "dependencies": {
-    "@iconify-json/bi": "^1.1.23",
-    "@iconify-json/simple-icons": "^1.1.88",
-    "postcss-import": "^16.0.0"
-  }
+    "@iconify-json/bi": "1.2.1",
+    "@iconify-json/simple-icons": "1.2.14",
+    "postcss-import": "16.1.0"
+  },
+  "packageManager": "pnpm@9.14.4"
 }
