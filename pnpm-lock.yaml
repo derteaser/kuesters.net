@@ -12,8 +12,8 @@ importers:
         specifier: 1.2.1
         version: 1.2.1
       '@iconify-json/simple-icons':
-        specifier: 1.2.15
-        version: 1.2.15
+        specifier: 1.2.16
+        version: 1.2.16
       postcss-import:
         specifier: 16.1.0
         version: 16.1.0(postcss@8.4.49)
@@ -398,8 +398,8 @@ packages:
   '@iconify-json/bi@1.2.1':
     resolution: {integrity: sha512-wsIWb6bcnBkfN8/2puIIE2ul6NYVjclbE/nI7JZsPnfzBamd3NuRFstXQH9Ckkbrw9eiBTNKwHbH90w3UE5QIg==}
 
-  '@iconify-json/simple-icons@1.2.15':
-    resolution: {integrity: sha512-4vxMQwkjsbjVIVGsPjKBnLMqAXu4wSlHmeN35KaJLK0UJNUj/ef6ES5c4bT/U4bSZjD2oZqOjOWTPD+HCrSUkg==}
+  '@iconify-json/simple-icons@1.2.16':
+    resolution: {integrity: sha512-mnQ0Ih8CDIgOqbi0qz01AJNOeFVuGFRimelg3JmJtD0y5EpZVw+enPPcpcxJKipsRZ/oqhcP3AhYkF1kM7yomg==}
 
   '@iconify/tools@4.0.7':
     resolution: {integrity: sha512-zOJxKIfZn96ZRGGvIWzDRLD9vb2CsxjcLuM+QIdvwWbv6SWhm49gECzUnd4d2P0sq9sfodT7yCNobWK8nvavxQ==}
@@ -2390,7 +2390,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/simple-icons@1.2.15':
+  '@iconify-json/simple-icons@1.2.16':
     dependencies:
       '@iconify/types': 2.0.0
 
