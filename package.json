@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@iconify-json/bi": "1.2.2",
-    "@iconify-json/simple-icons": "1.2.21",
+    "@iconify-json/simple-icons": "1.2.22",
     "postcss-import": "16.1.0"
   },
   "packageManager": "pnpm@9.15.4"
