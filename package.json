@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@astrojs/alpinejs": "0.4.3",
-    "@astrojs/tailwind": "5.1.5",
+    "@astrojs/tailwind": "6.0.0",
     "@tailwindcss/typography": "0.5.16",
     "@types/alpinejs": "3.13.11",
     "alpinejs": "3.14.8",
