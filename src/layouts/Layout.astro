@@ -11,13 +11,13 @@ import '../styles/main.css'
     <title>Jens Küsters</title>
     <script src="https://cdn.usefathom.com/script.js" data-site="VVRFYWBM" defer></script>
 </head>
-<body class="bg-gray-900 text-gray-300 flex flex-col bg-cup-sm md:bg-cup-md lg:bg-cup-lg xl:bg-cup-xl bg-cover bg-center bg-fixed" x-data="{ 'showBio': false }" @keydown.escape="showBio = false">
-<div class="h-screen bg-opacity-50 bg-black flex items-center justify-center">
+<body x-data="{ 'showBio': false }" @keydown.escape="showBio = false">
+<div class="h-screen bg-black/50 flex items-center justify-center">
     <slot />
 
-    <div class="absolute bottom-0 text-center text-xs w-screen px-12 pb-16">
+    <footer class="absolute bottom-0 text-center text-xs w-screen px-12 pb-16">
         &copy;2025 Jens K&uuml;sters<br>Gau&szlig;stra&szlig;e 37 | 41464 Neuss | Germany
-    </div>
+    </footer>
 </div>
 </body>
 </html>

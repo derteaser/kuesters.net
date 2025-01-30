@@ -12,19 +12,19 @@ import {Content as AboutContent, frontmatter as AboutFrontmatter} from '../compo
             <h2 class="text-gray-200 text-4xl mb-4">Hello!</h2>
             <p class="text-xl tracking-wide">
                 {AboutFrontmatter.title}
-                <button @click="showBio = true" class="text-white hover:underline hover:text-gray-200 focus:outline-none">
+                <button @click="showBio = true" class="text-white hover:underline hover:text-gray-200 focus:outline-hidden">
                     read more
                     <Icon name="bi:arrow-right" class="h-4 w-4 fill-current inline-block" />
                 </button>
             </p>
             <div x-show="showBio"
-                :class="{ 'bg-gray-800 bg-opacity-50 backdrop-blur-md absolute inset-0 z-10 flex items-center justify-center': showBio }"
+                :class="{ 'bg-gray-800/50 backdrop-blur-md absolute inset-0 z-10 flex items-center justify-center': showBio }"
                 x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0 scale-90" x-transition:enter-end="opacity-100 scale-100" x-cloak>
                 <button @click="showBio = false"
-                        class="absolute top-0 right-0 m-5 p-2 bg-gray-100 text-gray-900 hover:bg-gray-300 focus:outline-none" type="button">
+                        class="absolute top-0 right-0 m-5 p-2 bg-gray-100 text-gray-900 hover:bg-gray-300 focus:outline-hidden" type="button">
                     <Icon name="bi:x" class="h-6 w-6 fill-current" />
                     <span class="sr-only">Close</span></button>
-                <div class="prose prose-invert prose-h2:text-3xl max-w-md bg-gray-900 text-left p-8 space-y-4 shadow" x-show="showBio" @click.away="showBio = false">
+                <div class="prose prose-invert prose-h2:text-3xl max-w-md bg-gray-900 text-left p-8 space-y-4 shadow-sm" x-show="showBio" @click.away="showBio = false">
                     <h2>{AboutFrontmatter.title}</h2>
                     <AboutContent/>
                 </div>
