@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@iconify-json/bi": "1.2.2",
-    "@iconify-json/simple-icons": "1.2.27"
+    "@iconify-json/simple-icons": "1.2.28"
   },
   "packageManager": "pnpm@10.6.1"
 }
