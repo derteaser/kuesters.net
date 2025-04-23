@@ -16,8 +16,8 @@ importers:
         version: 1.2.33
     devDependencies:
       '@astrojs/alpinejs':
-        specifier: 0.4.6
-        version: 0.4.6(@types/alpinejs@3.13.11)(alpinejs@3.14.9)
+        specifier: 0.4.7
+        version: 0.4.7(@types/alpinejs@3.13.11)(alpinejs@3.14.9)
       '@tailwindcss/typography':
         specifier: 0.5.16
         version: 0.5.16(tailwindcss@4.1.4)
@@ -31,8 +31,8 @@ importers:
         specifier: 3.14.9
         version: 3.14.9
       astro:
-        specifier: 5.7.4
-        version: 5.7.4(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.40.0)(typescript@5.8.3)
+        specifier: 5.7.5
+        version: 5.7.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.40.0)(typescript@5.8.3)
       astro-icon:
         specifier: 1.1.5
         version: 1.1.5
@@ -51,8 +51,8 @@ packages:
   '@antfu/utils@8.1.1':
     resolution: {integrity: sha512-Mex9nXf9vR6AhcXmMrlz/HVgYYZpVGJ6YlPgwl7UnaFpnshXs6EK/oa5Gpf3CzENMjkvEx2tQtntGnb7UtSTOQ==}
 
-  '@astrojs/alpinejs@0.4.6':
-    resolution: {integrity: sha512-uogG08bVN8ER8ANVAmfipUw3tZMk+SrZICtH5NMHmsDnSIuLSrXNa9+rCbAXHe/pbTfNUvlp5gE9jSxbd0KYFQ==}
+  '@astrojs/alpinejs@0.4.7':
+    resolution: {integrity: sha512-yz1zOlE5Po2VjuA0m9syNltt0nsiyzWRnj2ZIZr/OUMYKf1RJx2H39YY8yn5+ytq8ntOywXQOUtQ4bHcnt3nzA==}
     peerDependencies:
       '@types/alpinejs': ^3.0.0
       alpinejs: ^3.0.0
@@ -70,8 +70,8 @@ packages:
     resolution: {integrity: sha512-GilTHKGCW6HMq7y3BUv9Ac7GMe/MO9gi9GW62GzKtth0SwukCu/qp2wLiGpEujhY+VVhaG9v7kv/5vFzvf4NYw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0}
 
-  '@astrojs/telemetry@3.2.0':
-    resolution: {integrity: sha512-wxhSKRfKugLwLlr4OFfcqovk+LIFtKwLyGPqMsv+9/ibqqnW3Gv7tBhtKEb0gAyUAC4G9BTVQeQahqnQAhd6IQ==}
+  '@astrojs/telemetry@3.2.1':
+    resolution: {integrity: sha512-SSVM820Jqc6wjsn7qYfV9qfeQvePtVc1nSofhyap7l0/iakUKywj3hfy3UJAOV4sGV4Q/u450RD4AaCaFvNPlg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0}
 
   '@babel/helper-string-parser@7.25.9':
@@ -687,8 +687,8 @@ packages:
   astro-icon@1.1.5:
     resolution: {integrity: sha512-CJYS5nWOw9jz4RpGWmzNQY7D0y2ZZacH7atL2K9DeJXJVaz7/5WrxeyIxO8KASk1jCM96Q4LjRx/F3R+InjJrw==}
 
-  astro@5.7.4:
-    resolution: {integrity: sha512-h+pndGOyoYbsBd0YvP7bL3gotUSlyltp8OLpcYg062w0n5c96wJ9xt/RmwwXzGbdcUjWFtw0c5z4zCA92NDmlA==}
+  astro@5.7.5:
+    resolution: {integrity: sha512-c59YuYiXyWWnUMOBlDczrjqKzF0dJQP20EP9vqDggcyKm//tEt9iJHNwoYq4r3UeO9UJCwlGK8FwaGTAwwF3IA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2025,7 +2025,7 @@ snapshots:
 
   '@antfu/utils@8.1.1': {}
 
-  '@astrojs/alpinejs@0.4.6(@types/alpinejs@3.13.11)(alpinejs@3.14.9)':
+  '@astrojs/alpinejs@0.4.7(@types/alpinejs@3.13.11)(alpinejs@3.14.9)':
     dependencies:
       '@types/alpinejs': 3.13.11
       alpinejs: 3.14.9
@@ -2064,7 +2064,7 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/telemetry@3.2.0':
+  '@astrojs/telemetry@3.2.1':
     dependencies:
       ci-info: 4.2.0
       debug: 4.4.0
@@ -2558,12 +2558,12 @@ snapshots:
       - debug
       - supports-color
 
-  astro@5.7.4(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.40.0)(typescript@5.8.3):
+  astro@5.7.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.40.0)(typescript@5.8.3):
     dependencies:
       '@astrojs/compiler': 2.11.0
       '@astrojs/internal-helpers': 0.6.1
       '@astrojs/markdown-remark': 6.3.1
-      '@astrojs/telemetry': 3.2.0
+      '@astrojs/telemetry': 3.2.1
       '@capsizecss/unpack': 2.4.0
       '@oslojs/encoding': 1.1.0
       '@rollup/pluginutils': 5.1.4(rollup@4.40.0)
