@@ -21,7 +21,7 @@
     "typescript": "5.8.3"
   },
   "dependencies": {
-    "@iconify-json/bi": "1.2.2",
+    "@iconify-json/bi": "1.2.3",
     "@iconify-json/simple-icons": "1.2.33"
   },
   "packageManager": "pnpm@10.10.0"
