@@ -15,7 +15,7 @@
     "@tailwindcss/vite": "4.1.7",
     "@types/alpinejs": "3.13.11",
     "alpinejs": "3.14.9",
-    "astro": "5.7.14",
+    "astro": "5.8.0",
     "astro-icon": "1.1.5",
     "tailwindcss": "4.1.7",
     "typescript": "5.8.3"
