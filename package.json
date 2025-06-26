@@ -12,12 +12,12 @@
   "devDependencies": {
     "@astrojs/alpinejs": "0.4.8",
     "@tailwindcss/typography": "0.5.16",
-    "@tailwindcss/vite": "4.1.10",
+    "@tailwindcss/vite": "4.1.11",
     "@types/alpinejs": "3.13.11",
     "alpinejs": "3.14.9",
     "astro": "5.10.1",
     "astro-icon": "1.1.5",
-    "tailwindcss": "4.1.10",
+    "tailwindcss": "4.1.11",
     "typescript": "5.8.3"
   },
   "dependencies": {
