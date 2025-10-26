@@ -17,7 +17,7 @@ importers:
     devDependencies:
       '@astrojs/alpinejs':
         specifier: 0.4.9
-        version: 0.4.9(@types/alpinejs@3.13.11)(alpinejs@3.15.0)
+        version: 0.4.9(@types/alpinejs@3.13.11)(alpinejs@3.15.1)
       '@tailwindcss/typography':
         specifier: 0.5.19
         version: 0.5.19(tailwindcss@4.1.16)
@@ -28,8 +28,8 @@ importers:
         specifier: 3.13.11
         version: 3.13.11
       alpinejs:
-        specifier: 3.15.0
-        version: 3.15.0
+        specifier: 3.15.1
+        version: 3.15.1
       astro:
         specifier: 5.15.1
         version: 5.15.1(@types/node@24.8.1)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.52.5)(typescript@5.9.3)
@@ -706,8 +706,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  alpinejs@3.15.0:
-    resolution: {integrity: sha512-lpokA5okCF1BKh10LG8YjqhfpxyHBk4gE7boIgVHltJzYoM7O9nK3M7VlntLEJGsVmu7U/RzUWajmHREGT38Eg==}
+  alpinejs@3.15.1:
+    resolution: {integrity: sha512-HLO1TtiE92VajFHtLLPK8BWaK1YepV/uj31UrfoGnQ00lyFOJZ+oVY3F0DghPAwvg8sLU79pmjGQSytERa2gEg==}
 
   ansi-align@3.0.1:
     resolution: {integrity: sha512-IOfwwBF5iczOjp/WeY4YxyjqAFMQoZufdQWDd19SEExbVLNXqvpzSJ/M7Za4/sCPmQ0+GRquoA7bGcINcxew6w==}
@@ -2033,10 +2033,10 @@ snapshots:
 
   '@antfu/utils@8.1.1': {}
 
-  '@astrojs/alpinejs@0.4.9(@types/alpinejs@3.13.11)(alpinejs@3.15.0)':
+  '@astrojs/alpinejs@0.4.9(@types/alpinejs@3.13.11)(alpinejs@3.15.1)':
     dependencies:
       '@types/alpinejs': 3.13.11
-      alpinejs: 3.15.0
+      alpinejs: 3.15.1
 
   '@astrojs/compiler@2.13.0': {}
 
@@ -2572,7 +2572,7 @@ snapshots:
 
   acorn@8.15.0: {}
 
-  alpinejs@3.15.0:
+  alpinejs@3.15.1:
     dependencies:
       '@vue/reactivity': 3.1.5
 
