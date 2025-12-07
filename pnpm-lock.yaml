@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@iconify-json/bi':
-        specifier: 1.2.6
-        version: 1.2.6
+        specifier: 1.2.7
+        version: 1.2.7
       '@iconify-json/simple-icons':
         specifier: 1.2.61
         version: 1.2.61
@@ -254,8 +254,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@iconify-json/bi@1.2.6':
-    resolution: {integrity: sha512-fWfLr1/+DJDe8+rIUXxMwvmWBZFlxRtM59sYnrezJ2xX87QKyXVw3QuforJ4kF2Orrz85J+JTRG6305vaJ7flA==}
+  '@iconify-json/bi@1.2.7':
+    resolution: {integrity: sha512-IPz8WNxmLkH1I9msl+0Q4OnmjjvP4uU0Z61a4i4sqonB6vKSbMGUWuGn8/YuuszlReVj8rf+3gNv5JU8Xoljyg==}
 
   '@iconify-json/simple-icons@1.2.61':
     resolution: {integrity: sha512-DG6z3VEAxtDEw/SuZssZ/E8EvhjBhFQqxpEo3uckRKiia3LfZHmM4cx4RsaO2qX1Bqo9uadR5c/hYavvUQVuHw==}
@@ -2096,7 +2096,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.12':
     optional: true
 
-  '@iconify-json/bi@1.2.6':
+  '@iconify-json/bi@1.2.7':
     dependencies:
       '@iconify/types': 2.0.0
 
