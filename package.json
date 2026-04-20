@@ -18,7 +18,7 @@
     "astro": "6.1.7",
     "astro-icon": "1.1.5",
     "tailwindcss": "4.2.2",
-    "typescript": "6.0.2"
+    "typescript": "6.0.3"
   },
   "dependencies": {
     "@iconify-json/bi": "1.2.7",
