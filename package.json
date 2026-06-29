@@ -10,12 +10,12 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/alpinejs": "0.5.0",
+    "@astrojs/alpinejs": "1.0.0",
     "@tailwindcss/typography": "0.5.20",
     "@tailwindcss/vite": "4.3.1",
     "@types/alpinejs": "3.13.11",
     "alpinejs": "3.15.12",
-    "astro": "6.4.8",
+    "astro": "7.0.3",
     "astro-icon": "1.1.5",
     "tailwindcss": "4.3.1",
     "typescript": "6.0.3"
