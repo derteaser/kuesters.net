@@ -16,7 +16,7 @@
     "@types/alpinejs": "3.13.11",
     "alpinejs": "3.16.2",
     "astro": "7.2.4",
-    "astro-icon": "1.1.5",
+    "astro-icon": "1.2.0",
     "tailwindcss": "4.3.3",
     "typescript": "7.0.2"
   },
