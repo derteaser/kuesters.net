@@ -13,7 +13,7 @@
     "@astrojs/alpinejs": "1.0.0",
     "@tailwindcss/typography": "0.5.20",
     "@tailwindcss/vite": "4.3.3",
-    "@types/alpinejs": "3.13.11",
+    "@types/alpinejs": "3.17.0",
     "alpinejs": "3.17.4",
     "astro": "7.3.5",
     "astro-icon": "1.2.0",
