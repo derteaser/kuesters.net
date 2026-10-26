@@ -24,5 +24,5 @@
     "@iconify-json/bi": "1.2.7",
     "@iconify-json/simple-icons": "1.2.100"
   },
-  "packageManager": "pnpm@12.14.0"
+  "packageManager": "pnpm@12.15.0"
 }
